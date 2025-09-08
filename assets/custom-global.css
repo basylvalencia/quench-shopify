@@ -1,0 +1,128 @@
+/* @font-face {
+  font-family: 'Helvetica Neue';
+  src: url('{{ "HelveticaNeue.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueBlack.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueBlackItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueBold.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueBoldItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueHeavy.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueHeavyItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueLight.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueLightItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueMedium.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueMediumItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueRoman.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueThin.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueThinItalic.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueUltraLight.otf" | file_url}}') format('opentype'),
+       url('{{ "HelveticaNeueUltraLightItalic.otf" | file_url}}') format('opentype');
+} */
+
+
+/* @font-face {
+  font-family: 'Helvetica';
+  src: url('{{ "HelveticaNeueBlack.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueBlackItalic.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueBoldItalic.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueHeavy.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueHeavyItalic.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueLight.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueLightItalic.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueMedium.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueRoman.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueThin.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueThinItalic.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueUltraLight.ttf" | file_url}}') format('truetype'),
+       url('{{ "HelveticaNeueUltraLightItalic.ttf" | file_url}}') format('truetype');
+} */
+
+/* @font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueBlack.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */
+/* 
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueBlackItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueBoldItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueHeavy.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueHeavyItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueLight.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueLightItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueMedium.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueRoman.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueThin.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueThinItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueUltraLight.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+    src: url('{{ "HelveticaNeueUltraLightItalic.ttf" | file_url}}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */

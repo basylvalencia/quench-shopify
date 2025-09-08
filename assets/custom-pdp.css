@@ -1,0 +1,74 @@
+.custom-ship {
+    margin-top: 15px;
+    background-color: #F2F2F2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.au-shipping {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.custom-ship svg {
+    /* width: 10px; */
+}
+
+.product-info__offer-list {
+    grid-template-columns: 1fr!important;
+}
+
+
+.product-info__title.h2 {
+    font-weight: 500;
+    font-size: 42px;
+} 
+
+.product-info__subtitle p {
+    font-size: 18px;
+}
+
+sale-price {
+    font-size: 40px!important;
+}
+
+.product-info__check_text {
+    margin-block-start: var(--product-info-block-spacing);
+    margin-block-end: var(--product-info-block-spacing);
+}
+
+.product-info__check_text ul {
+    display: flex;
+    gap: 5px;
+}
+
+.product-info__check_text ul li{
+    border: 1px solid #DEDEDF;
+    border-radius: 5px;
+    padding: 3px 10px 3px 25px;
+    font-size: 13px;
+    position: relative;
+    color: #525252;
+}
+
+.product-info__check_text ul li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+
+safe-sticky > div {
+    max-width: 500px;
+}
+
+safe-sticky > .product-info__block-group.accordion-group {
+    max-width: unset;
+}
