@@ -9,8 +9,36 @@
     left: 15px;
     color: #fff;
   }
+
+  .section__title {
+    font-style: italic;
+    font-size: 30px;
+    line-height:39px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section__title--accent {
+    font-style: normal;
+  }
+
+  @media screen and (min-width: 769px) {
+    .section__title {
+      font-size: 46px;
+      line-height:57px;
+      margin-bottom: 50px;
+    }
+  }
 {% endstyle %}
 <div class="instagram-list section no-padding-right">
+  {% if section.settings.first_title %}
+    <h2 class="section__title instrument-serif">
+      {{ section.settings.first_title }}
+      {% if section.settings.cont_title %}
+        <span class="section__title--accent helvetica-neue"> {{ section.settings.cont_title }}</span>
+      {% endif %}
+    </h2>
+  {% endif %}
   <div class="instagram instagram-swiper swiper">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
@@ -76,9 +104,15 @@
     },
     {
       "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Logo list"
+      "id": "first_title",
+      "label": "First Title",
+      "default": "Join"
+    },
+    {
+      "type": "text",
+      "id": "cont_title",
+      "label": "Continuation Title",
+      "default": "the #quenchfam"
     }
   ],
   "blocks": [
