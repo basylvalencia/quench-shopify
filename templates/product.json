@@ -94,11 +94,11 @@
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "picto-like",
+            "icon": "picto-truck",
             "icon_width": 20,
             "title": "Spend $100 to get free shipping Standard shipping $9.99",
             "content": "<p>Shipping information</p>",
-            "background": "#bfd2ff",
+            "background": "#f2f2f2",
             "text_color": "#0c0c0d"
           }
         },
@@ -314,11 +314,79 @@
         "accordion_background": "#e9f0ff",
         "accordion_text_color": ""
       }
+    },
+    "instagram_67fPeY": {
+      "type": "instagram",
+      "blocks": {
+        "image_U88XiQ": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/maqossa.jpg",
+            "title": "@maqossa",
+            "link": "#"
+          }
+        },
+        "image_weBjBd": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/ryanmarciano.jpg",
+            "title": "@ryanmarciano",
+            "link": "#"
+          }
+        },
+        "image_DJBf4x": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/colyn_music.jpg",
+            "title": "@colyn_music",
+            "link": "#"
+          }
+        },
+        "image_MmKAgA": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/anotr.music.jpg",
+            "title": "@anotr.music",
+            "link": "#"
+          }
+        },
+        "image_PznBGb": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/kellar.music.jpg",
+            "title": "@kellar.music",
+            "link": "#"
+          }
+        },
+        "image_hAEHh3": {
+          "type": "image",
+          "settings": {
+            "instagram_image": "shopify://shop_images/maqossa.jpg",
+            "title": "@camelphat",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_U88XiQ",
+        "image_weBjBd",
+        "image_DJBf4x",
+        "image_MmKAgA",
+        "image_PznBGb",
+        "image_hAEHh3"
+      ],
+      "name": "Instagram List",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Logo list"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "accordion_content_br7Ukx"
+    "accordion_content_br7Ukx",
+    "instagram_67fPeY"
   ]
 }
