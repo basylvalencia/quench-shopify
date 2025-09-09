@@ -328,7 +328,13 @@ Supported variables
               {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, show_gift_card_recipient: block.settings.show_gift_card_recipient, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
             </div>
             <div class="custom-ship">
-              <span><strong>Ships by</strong> Sun, Sept 14</span>
+              
+              <span>
+                <svg class="blue-circle" xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                <circle cx="6" cy="6.5" r="6" fill="#2B6AFB"></circle>
+              </svg>
+              
+              <strong>Ships by</strong><span class="ship-date"></span></span>
               <div class="au-shipping">
                 {% render 'icon-australia-flag' %}
                 <span>Fast AU Shipping </span>

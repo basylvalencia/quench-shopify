@@ -59,6 +59,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'custom-script.js' | asset_url }}"></script>
 
     {{ content_for_header }}
 
@@ -82,6 +83,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       font-style: normal;
     }
     {% endstyle %}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">

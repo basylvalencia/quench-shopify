@@ -792,6 +792,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   width: var(--spacing-6);
   height: var(--spacing-6);
   border-radius: var(--rounded-full);
+  background: rgb(var(--text-color) / .1);
   flex-shrink: 0;
   place-items: center;
   transition: all .2s ease-in-out;
